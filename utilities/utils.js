@@ -3,7 +3,7 @@ const isNumber = require("./isNumber");
 exports.add = (a, b) => {
   if (!isNumber(a) || !isNumber(b))
     throw new Error("Input values must be numbers");
-  return a + b + "turtle";
+  return a + b;
 };
 
 exports.subtract = (a, b) => {
